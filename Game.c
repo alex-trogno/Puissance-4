@@ -2,8 +2,8 @@
 #include <math.h>
 
 static sfTexture* NORMAL_TEXTURE;
-static sfTexture* P1_TEXTURE;
-static sfTexture* P2_TEXTURE;
+static sfTexture* RED_TEXTURE;
+static sfTexture* YELLOW_TEXTURE;
 static sfTexture* BACKGROUND_TEXTURE;
 static sfSprite* BACKGROUND_SPRITE;
 static sfTexture* ARROW_TEXTURE;
@@ -17,13 +17,13 @@ static void LoadAllTextures()
     if (!NORMAL_TEXTURE)
         printf("ERREUR: impossible de charger normal.png\n");
 
-    P1_TEXTURE = sfTexture_createFromFile("./Assets/P1.png", NULL);
-    if (!P1_TEXTURE)
-        printf("ERREUR: impossible de charger P1.png\n");
+    RED_TEXTURE = sfTexture_createFromFile("./Assets/red.png", NULL);
+    if (!RED_TEXTURE)
+        printf("ERREUR: impossible de charger red.png\n");
 
-    P2_TEXTURE = sfTexture_createFromFile("./Assets/P2.png", NULL);
-    if (!P2_TEXTURE)
-        printf("ERREUR: impossible de charger P2.png\n");
+    YELLOW_TEXTURE = sfTexture_createFromFile("./Assets/yellow.png", NULL);
+    if (!YELLOW_TEXTURE)
+        printf("ERREUR: impossible de charger yellow.png\n");
 
     BACKGROUND_TEXTURE = sfTexture_createFromFile("./Assets/background.png", NULL);
     if (!BACKGROUND_TEXTURE)
@@ -53,7 +53,7 @@ static void LoadAllTextures()
             sfSprite_setTexture(ARROW_SPRITES[col], ARROW_TEXTURE, sfTrue);
 
             sfFloatRect bounds = sfSprite_getLocalBounds(ARROW_SPRITES[col]);
-            float arrowSize = CELL_SIZE * 0.9f;
+            float arrowSize = CELL_SIZE * 0.8f;
             float scaleX = (bounds.width > 0.f) ? arrowSize / bounds.width : 1.f;
             float scaleY = (bounds.height > 0.f) ? arrowSize / bounds.height : 1.f;
             sfSprite_setScale(ARROW_SPRITES[col], (sfVector2f) { scaleX, scaleY });
@@ -69,8 +69,8 @@ static void LoadAllTextures()
 static void UnloadAllTextures()
 {
     if (NORMAL_TEXTURE) { sfTexture_destroy(NORMAL_TEXTURE);     NORMAL_TEXTURE = NULL; }
-    if (P1_TEXTURE) { sfTexture_destroy(P1_TEXTURE);        P1_TEXTURE = NULL; }
-    if (P2_TEXTURE) { sfTexture_destroy(P2_TEXTURE);     P2_TEXTURE = NULL; }
+    if (RED_TEXTURE) { sfTexture_destroy(RED_TEXTURE);        RED_TEXTURE = NULL; }
+    if (YELLOW_TEXTURE) { sfTexture_destroy(YELLOW_TEXTURE);     YELLOW_TEXTURE = NULL; }
     if (BACKGROUND_SPRITE) { sfSprite_destroy(BACKGROUND_SPRITE);   BACKGROUND_SPRITE = NULL; }
     if (BACKGROUND_TEXTURE) { sfTexture_destroy(BACKGROUND_TEXTURE); BACKGROUND_TEXTURE = NULL; }
     for (int col = 0; col < GRID_COLS; col++)
@@ -78,14 +78,14 @@ static void UnloadAllTextures()
     if (ARROW_TEXTURE) { sfTexture_destroy(ARROW_TEXTURE);      ARROW_TEXTURE = NULL; }
 }
 
-static void GetRequiP1SpriteForCell(Cell* cell, int grid[GRID_ROWS][GRID_COLS])
+static void GetRequiredSpriteForCell(Cell* cell, int grid[GRID_ROWS][GRID_COLS])
 {
     if (!cell || !cell->sprite) return;
 
     switch (cell->type)
     {
-    case PLAYER1: sfSprite_setTexture(cell->sprite, P1_TEXTURE, sfTrue); break;
-    case PLAYER2: sfSprite_setTexture(cell->sprite, P2_TEXTURE, sfTrue); break;
+    case PLAYER1: sfSprite_setTexture(cell->sprite, RED_TEXTURE, sfTrue); break;
+    case PLAYER2: sfSprite_setTexture(cell->sprite, YELLOW_TEXTURE, sfTrue); break;
     default:      sfSprite_setTexture(cell->sprite, NORMAL_TEXTURE, sfTrue); break;
     }
     (void)grid;
@@ -106,7 +106,7 @@ Cell* CreateCell(sfVector2i cellCoord, float size, enum CellType type, int grid[
         return NULL;
     }
 
-    GetRequiP1SpriteForCell(cell, grid);
+    GetRequiredSpriteForCell(cell, grid);
 
     sfSprite_setPosition(cell->sprite, (sfVector2f) {
         OFFSET_SIDE + (float)cellCoord.x * size,
@@ -172,8 +172,23 @@ void UpdateGame(Game* game, float deltaTime)
         });
 }
 
-void DrawGame(sfRenderWindow* window, Game* game)
+int HandleClickGame(Game* game, int mouseX, int mouseY)
 {
+    (void)game;
+    for (int col = 0; col < GRID_COLS; col++)
+    {
+        if (!ARROW_SPRITES[col]) continue;
+        sfFloatRect bounds = sfSprite_getGlobalBounds(ARROW_SPRITES[col]);
+        if (sfFloatRect_contains(&bounds, (float)mouseX, (float)mouseY))
+        {
+            printf("Colonne %d cliquee\n", col);
+            return col;
+        }
+    }
+    return -1;
+}
+
+void DrawGame(sfRenderWindow* window, Game* game) {
     if (!window || !game) return;
     if (BACKGROUND_SPRITE)
         sfRenderWindow_drawSprite(window, BACKGROUND_SPRITE, NULL);

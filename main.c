@@ -29,6 +29,9 @@ int main(void)
         {
             if (event.type == sfEvtClosed)
                 sfRenderWindow_close(window);
+
+            if (event.type == sfEvtMouseButtonPressed && event.mouseButton.button == sfMouseLeft)
+                HandleClickGame(game, event.mouseButton.x, event.mouseButton.y);
         }
 
         UpdateGame(game, deltaTime);
