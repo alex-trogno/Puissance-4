@@ -11,28 +11,28 @@
       "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:GAme.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Basic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Basic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Basic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Basic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Players.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Players.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Players.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Players.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Grid.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Grid.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Players.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Players.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\CSFML\\INCLUDE\\SFML\\GRAPHICS\\RENDERWINDOW.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -54,20 +54,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Players.c",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Players.c",
               "RelativeDocumentMoniker": "Players.c",
               "ToolTip": "D:\\Cours\\Puissance-4\\Players.c",
               "RelativeToolTip": "Players.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-16T18:57:15.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Players.h",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Players.h",
               "RelativeDocumentMoniker": "Players.h",
@@ -75,12 +75,11 @@
               "RelativeToolTip": "Players.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-16T18:57:07.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T18:57:07.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Grid.h",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Grid.h",
               "RelativeDocumentMoniker": "Grid.h",
@@ -88,20 +87,20 @@
               "RelativeToolTip": "Grid.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-16T18:56:07.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T18:56:07.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Grid.c",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Grid.c",
               "RelativeDocumentMoniker": "Grid.c",
               "ToolTip": "D:\\Cours\\Puissance-4\\Grid.c",
               "RelativeToolTip": "Grid.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-16T18:56:00.388Z"
+              "WhenOpened": "2026-03-16T18:56:00.388Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -111,7 +110,7 @@
               "RelativeDocumentMoniker": "Game.h",
               "ToolTip": "D:\\Cours\\Puissance-4\\Game.h",
               "RelativeToolTip": "Game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-16T18:32:36.712Z",
               "EditorCaption": ""
@@ -122,9 +121,9 @@
               "Title": "Game.c",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Game.c",
               "RelativeDocumentMoniker": "Game.c",
-              "ToolTip": "D:\\Cours\\Puissance-4\\Game.c*",
-              "RelativeToolTip": "Game.c*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "ToolTip": "D:\\Cours\\Puissance-4\\Game.c",
+              "RelativeToolTip": "Game.c",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAwwLYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-16T18:32:04.254Z",
               "EditorCaption": ""
@@ -143,13 +142,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Basic.h",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Basic.h",
               "RelativeDocumentMoniker": "Basic.h",
               "ToolTip": "D:\\Cours\\Puissance-4\\Basic.h",
               "RelativeToolTip": "Basic.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-16T17:48:46.834Z",
               "EditorCaption": ""
@@ -168,13 +167,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Main.c",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Main.c",
               "RelativeDocumentMoniker": "Main.c",
               "ToolTip": "D:\\Cours\\Puissance-4\\Main.c",
               "RelativeToolTip": "Main.c",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvy0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-16T17:28:59.439Z",
               "EditorCaption": ""

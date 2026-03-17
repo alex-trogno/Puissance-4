@@ -1,16 +1,15 @@
 #pragma once
 
 #include "Basic.h"
+#include "Grid.h"
+#include "Players.h"
 
 typedef struct Game
 {
-    sfText* currentMapText;
-    sfSprite* leftArrowSprite;
-    sfSprite* rightArrowSprite;
-    sfSprite* modeIconSprite;
-    sfText* modeText;
-    sfSprite* TextureIconSprite;
-    sfText* TextureSelect;
+    Grid* grid;
 } Game;
 
 Game* CreateGame();
+void  DestroyGame(Game* game);
+void  UpdateGame(Game* game, float deltaTime);
+void  DrawGame(sfRenderWindow* window, Game* game);
