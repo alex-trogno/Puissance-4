@@ -12,5 +12,12 @@
     <ClCompile Include="main.c">
       <Filter>Sources Files</Filter>
     </ClCompile>
+    <ClCompile Include="map.c" />
+    <ClCompile Include="MapSelectionMenu.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="map.h" />
+    <ClInclude Include="basics.h" />
+    <ClInclude Include="MapSelectionMenu.h" />
   </ItemGroup>
 </Project>

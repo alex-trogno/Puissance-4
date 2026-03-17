@@ -132,6 +132,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
+    <ClCompile Include="map.c" />
+    <ClCompile Include="MapSelectionMenu.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="basics.h" />
+    <ClInclude Include="map.h" />
+    <ClInclude Include="MapSelectionMenu.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

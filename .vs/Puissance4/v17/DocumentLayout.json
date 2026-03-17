@@ -1,12 +1,117 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Cours\\Puissance-4\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\MapSelectionMenu.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:MapSelectionMenu.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\basics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:basics.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\MapSelectionMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:MapSelectionMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\map.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:map.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:map.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MapSelectionMenu.c",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\MapSelectionMenu.c",
+              "RelativeDocumentMoniker": "MapSelectionMenu.c",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\MapSelectionMenu.c",
+              "RelativeToolTip": "MapSelectionMenu.c",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-16T18:42:07.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\main.c",
+              "RelativeDocumentMoniker": "main.c",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\main.c",
+              "RelativeToolTip": "main.c",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowDIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-16T17:34:14.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MapSelectionMenu.h",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\MapSelectionMenu.h",
+              "RelativeDocumentMoniker": "MapSelectionMenu.h",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\MapSelectionMenu.h",
+              "RelativeToolTip": "MapSelectionMenu.h",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-16T18:42:55.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "basics.h",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\basics.h",
+              "RelativeDocumentMoniker": "basics.h",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\basics.h",
+              "RelativeToolTip": "basics.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-16T18:30:07.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "map.h",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\map.h",
+              "RelativeDocumentMoniker": "map.h",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\map.h",
+              "RelativeToolTip": "map.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-16T18:27:26.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "map.c",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\map.c",
+              "RelativeDocumentMoniker": "map.c",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\map.c",
+              "RelativeToolTip": "map.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-16T18:26:29.243Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
