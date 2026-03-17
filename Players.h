@@ -4,8 +4,8 @@
 
 typedef struct Player
 {
-    int           id;      /* 1 ou 2          */
-    enum CellType type;    /* PLAYER1/PLAYER2 */
+    int           id;
+    enum CellType type;
     char          name[32];
     int           score;
 } Player;

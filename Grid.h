@@ -9,7 +9,6 @@ typedef struct Grid
     Cell* cell[GRID_ROWS][GRID_COLS];
 } Grid;
 
-/* Déclarations des fonctions Cell (définies dans Game.c) */
 Cell* CreateCell(sfVector2i cellCoord, float size, enum CellType type, int grid[GRID_ROWS][GRID_COLS]);
 void  DestroyCell(Cell* cell);
 void  DrawCell(sfRenderWindow* window, Cell* cell);
