@@ -13,3 +13,4 @@ Game* CreateGame();
 void  DestroyGame(Game* game);
 void  UpdateGame(Game* game, float deltaTime);
 void  DrawGame(sfRenderWindow* window, Game* game);
+int   HandleClickGame(Game* game, int mouseX, int mouseY);
