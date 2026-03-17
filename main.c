@@ -28,6 +28,12 @@ int main(void)
                 sfRenderWindow_close(window);
             }
 
+<<<<<<< Updated upstream
+=======
+            if (event.type == sfEvtMouseButtonPressed && event.mouseButton.button == sfMouseLeft)
+                HandleClickGame(game, event.mouseButton.x, event.mouseButton.y);
+
+>>>>>>> Stashed changes
         }
 
 

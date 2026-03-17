@@ -2,7 +2,11 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+<<<<<<< Updated upstream
       <FullPath>D:\Projets\2025\Puissance4\x64\Debug\Puissance4.exe</FullPath>
+=======
+      <FullPath>C:\Users\ptihu\Desktop\projet g tech\Puissance-4\x64\Debug\Puissance4.exe</FullPath>
+>>>>>>> Stashed changes
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

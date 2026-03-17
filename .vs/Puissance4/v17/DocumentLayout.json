@@ -1,12 +1,194 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "D:\\Cours\\Puissance-4\\",
   "Documents": [],
+=======
+  "WorkspaceRootPath": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\CSFML\\include\\SFML\\Graphics\\RenderWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSFML\\include\\SFML\\Graphics\\RenderWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\GAme.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:GAme.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Basic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Basic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Players.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Players.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Players.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Players.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Grid.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Grid.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\CSFML\\include\\SFML\\Graphics\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CSFML\\include\\SFML\\Graphics\\Color.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+>>>>>>> Stashed changes
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< Updated upstream
       "DocumentGroups": []
+=======
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Players.h",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Players.h",
+              "RelativeDocumentMoniker": "Players.h",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Players.h",
+              "RelativeToolTip": "Players.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-16T18:57:07.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Grid.h",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Grid.h",
+              "RelativeDocumentMoniker": "Grid.h",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Grid.h",
+              "RelativeToolTip": "Grid.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-16T18:56:07.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Grid.c",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Grid.c",
+              "RelativeDocumentMoniker": "Grid.c",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Grid.c",
+              "RelativeToolTip": "Grid.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-16T18:56:00.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game.c",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Game.c",
+              "RelativeDocumentMoniker": "Game.c",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Game.c",
+              "RelativeToolTip": "Game.c",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAACgBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-16T18:32:04.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Players.c",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Players.c",
+              "RelativeDocumentMoniker": "Players.c",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Players.c",
+              "RelativeToolTip": "Players.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-16T18:57:15.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-16T18:32:36.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RenderWindow.h",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\CSFML\\include\\SFML\\Graphics\\RenderWindow.h",
+              "RelativeDocumentMoniker": "CSFML\\include\\SFML\\Graphics\\RenderWindow.h",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\CSFML\\include\\SFML\\Graphics\\RenderWindow.h",
+              "RelativeToolTip": "CSFML\\include\\SFML\\Graphics\\RenderWindow.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-16T17:55:00.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Basic.h",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Basic.h",
+              "RelativeDocumentMoniker": "Basic.h",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Basic.h",
+              "RelativeToolTip": "Basic.h",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-16T17:48:46.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Color.h",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\CSFML\\include\\SFML\\Graphics\\Color.h",
+              "RelativeDocumentMoniker": "CSFML\\include\\SFML\\Graphics\\Color.h",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\CSFML\\include\\SFML\\Graphics\\Color.h",
+              "RelativeToolTip": "CSFML\\include\\SFML\\Graphics\\Color.h",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-16T17:35:35.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Main.c",
+              "RelativeDocumentMoniker": "Main.c",
+              "ToolTip": "C:\\Users\\ptihu\\Desktop\\projet g tech\\Puissance-4\\Main.c",
+              "RelativeToolTip": "Main.c",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAACEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-03-16T17:28:59.439Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+>>>>>>> Stashed changes
     }
   ]
 }

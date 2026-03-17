@@ -1,4 +1,13 @@
+<<<<<<< Updated upstream
 ﻿  main.c
 D:\Projets\2025\Puissance4\main.c(19,5): warning C4013: 'srand' undefined; assuming extern returning int
 D:\Projets\2025\Puissance4\main.c(19,25): warning C4013: 'time' undefined; assuming extern returning int
   Puissance4.vcxproj -> D:\Projets\2025\Puissance4\x64\Debug\Puissance4.exe
+=======
+﻿  Game.c
+C:\Users\ptihu\Desktop\projet g tech\Puissance-4\Game.c(198,33): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+C:\Users\ptihu\Desktop\projet g tech\Puissance-4\Game.c(247,40): warning C4244: '=' : conversion de 'int' en 'float', perte possible de données
+  Main.c
+  Génération de code en cours...
+  Puissance4.vcxproj -> C:\Users\ptihu\Desktop\projet g tech\Puissance-4\x64\Debug\Puissance4.exe
+>>>>>>> Stashed changes
