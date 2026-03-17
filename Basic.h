@@ -7,12 +7,16 @@
 #include <SFML/Graphics.h>
 
 #define WINDOW_TITLE "Puissance 4"
-#define WINDOW_WIDTH 700
-#define WINDOW_HEIGHT 700
-
 #define GRID_ROWS 6
 #define GRID_COLS 7
-#define CELL_SIZE 50
+#define CELL_SIZE 60
+
+#define OFFSET_SIDE   150
+#define OFFSET_TOP    250
+#define OFFSET_BOTTOM 80
+
+#define WINDOW_WIDTH  (GRID_COLS * CELL_SIZE + OFFSET_SIDE * 2)
+#define WINDOW_HEIGHT (GRID_ROWS * CELL_SIZE + OFFSET_TOP + OFFSET_BOTTOM)
 #define GRAPHIC_OFFSET 20
 
 enum ExitCode {
@@ -22,6 +26,11 @@ enum ExitCode {
     NULL_SPRITE = 62,
     NULL_TEXTURE = 63,
     NULL_FONT = 64,
+};
+
+enum Scene {
+    SCENE_MENU,
+    SCENE_GAME,
 };
 
 enum CellType {
@@ -49,3 +58,10 @@ enum Direction
     NORTH_SOUTH_WEST = 32,
     ALL = 33,
 };
+
+typedef struct Cell
+{
+    sfVector2i    coord;
+    enum CellType type;
+    sfSprite* sprite;
+} Cell;

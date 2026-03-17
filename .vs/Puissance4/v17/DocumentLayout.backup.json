@@ -62,8 +62,7 @@
               "RelativeToolTip": "Players.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-16T18:57:15.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T18:57:15.582Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "Players.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-16T18:57:07.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T18:57:07.408Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "Grid.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-16T18:56:07.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T18:56:07.633Z"
             },
             {
               "$type": "Document",
@@ -113,8 +110,7 @@
               "RelativeToolTip": "Game.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-16T18:32:36.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T18:32:36.712Z"
             },
             {
               "$type": "Document",
@@ -122,9 +118,9 @@
               "Title": "Game.c",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Game.c",
               "RelativeDocumentMoniker": "Game.c",
-              "ToolTip": "D:\\Cours\\Puissance-4\\Game.c*",
-              "RelativeToolTip": "Game.c*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "ToolTip": "D:\\Cours\\Puissance-4\\Game.c",
+              "RelativeToolTip": "Game.c",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-16T18:32:04.254Z",
               "EditorCaption": ""
@@ -151,8 +147,7 @@
               "RelativeToolTip": "Basic.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-16T17:48:46.834Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T17:48:46.834Z"
             },
             {
               "$type": "Document",
@@ -176,8 +171,7 @@
               "RelativeToolTip": "Main.c",
               "ViewState": "AgIAAAEAAAAAAAAAAAAgwBYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-16T17:28:59.439Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T17:28:59.439Z"
             }
           ]
         }

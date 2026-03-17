@@ -10,39 +10,36 @@ int main(void)
     sfVideoMode mode = { WINDOW_WIDTH, WINDOW_HEIGHT, 32 };
     sfRenderWindow* window;
     sfEvent event;
+    sfClock* clock;
 
-    /* Create the main window */
     window = sfRenderWindow_create(mode, "Puissance 4", sfClose, NULL);
     if (!window)
-    {
         return FAILURE;
-    }
 
     srand((unsigned int)time(NULL));
 
-    CreateGame();
+    Game* game = CreateGame();
+    clock = sfClock_create();
 
-    /* Start the game loop */
     while (sfRenderWindow_isOpen(window))
     {
-        /* Process events */
+        float deltaTime = sfTime_asSeconds(sfClock_restart(clock));
+
         while (sfRenderWindow_pollEvent(window, &event))
         {
-            /* Close window : exit */
             if (event.type == sfEvtClosed)
-            {
                 sfRenderWindow_close(window);
-            }
         }
 
-        /* Clear the screen */
-        sfRenderWindow_clear(window, sfColor_fromRGB(0, 174, 192));
+        UpdateGame(game, deltaTime);
 
-        /* Update the window */
+        sfRenderWindow_clear(window, sfColor_fromRGB(0, 174, 192));
+        DrawGame(window, game);
         sfRenderWindow_display(window);
     }
 
-    /* Cleanup resources */
+    DestroyGame(game);
+    sfClock_destroy(clock);
     sfRenderWindow_destroy(window);
 
     return SUCCESS;
