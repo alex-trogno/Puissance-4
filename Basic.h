@@ -15,8 +15,6 @@
 #define CELL_SIZE 50
 #define GRAPHIC_OFFSET 20
 
-extern sfFont* GAME_FONT;
-
 enum ExitCode {
     FAILURE = -1,
     SUCCESS = 0,
@@ -24,11 +22,6 @@ enum ExitCode {
     NULL_SPRITE = 62,
     NULL_TEXTURE = 63,
     NULL_FONT = 64,
-};
-
-enum Scene {
-    SCENE_MENU,
-    SCENE_GAME,
 };
 
 enum CellType {

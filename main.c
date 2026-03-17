@@ -20,7 +20,7 @@ int main(void)
 
     srand((unsigned int)time(NULL));
 
-    Affichage* menu = CreateAffichage();
+    CreateGame();
 
     /* Start the game loop */
     while (sfRenderWindow_isOpen(window))
@@ -37,13 +37,6 @@ int main(void)
 
         /* Clear the screen */
         sfRenderWindow_clear(window, sfColor_fromRGB(0, 174, 192));
-
-        /* Draw menu */
-        if (menu)
-        {
-            sfRenderWindow_drawSprite(window, menu->leftArrowSprite, NULL);
-            sfRenderWindow_drawSprite(window, menu->rightArrowSprite, NULL);
-        }
 
         /* Update the window */
         sfRenderWindow_display(window);

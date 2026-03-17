@@ -2,7 +2,7 @@
 
 #include "Basic.h"
 
-typedef struct Affichage
+typedef struct Game
 {
     sfText* currentMapText;
     sfSprite* leftArrowSprite;
@@ -11,6 +11,6 @@ typedef struct Affichage
     sfText* modeText;
     sfSprite* TextureIconSprite;
     sfText* TextureSelect;
-} Affichage;
+} Game;
 
-Affichage* CreateAffichage();
+Game* CreateGame();

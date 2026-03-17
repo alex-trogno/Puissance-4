@@ -1,47 +1,50 @@
 #include "Game.h"
 
-sfFont* GAME_FONT;
-static sfTexture* ARROW_TEXTURE;
+static sfTexture* NORMAL_TEXTURE;
+static sfTexture* RED_TEXTURE;
+static sfTexture* YELLOW_TEXTURE;
 
 static void LoadAllTextures()
 {
-    ARROW_TEXTURE = sfTexture_createFromFile("./Assets/Arrow_R.png", NULL);
-    if (!ARROW_TEXTURE)
-        printf("ERREUR: impossible de charger Arrow_R.png\n");
-
-    GAME_FONT = sfFont_createFromFile("./Assets/Geo-Regular.ttf");
-    if (!GAME_FONT)
-        printf("ERREUR: impossible de charger Geo-Regular.ttf\n");
+    NORMAL_TEXTURE = sfTexture_createFromFile("./Assets/normal.png", NULL);
+    RED_TEXTURE = sfTexture_createFromFile("./Assets/red.png", NULL);
+    YELLOW_TEXTURE = sfTexture_createFromFile("./Assets/yellow.png", NULL);
 }
 
-Affichage* CreateAffichage()
-{
-    LoadAllTextures();
-
-    Affichage* menu = (Affichage*)malloc(sizeof(Affichage));
-    if (!menu) {
-        printf("ERROR: Failed to allocate Affichage!\n");
+Cell* CreateCell(sfVector2i cellCoord, float size, enum CellType type, int grid[20][20]) {
+    Cell* cell = (Cell*)malloc(sizeof(Cell));
+    if (!cell) {
         return NULL;
     }
 
-    menu->leftArrowSprite = sfSprite_create();
-    menu->rightArrowSprite = sfSprite_create();
+    cell->coord = cellCoord;
 
-    sfSprite_setTexture(menu->leftArrowSprite, ARROW_TEXTURE, sfTrue);
-    sfSprite_setRotation(menu->leftArrowSprite, 180);
-    sfSprite_setTexture(menu->rightArrowSprite, ARROW_TEXTURE, sfTrue);
+    cell->type = type;
 
-    sfSprite_setOrigin(menu->leftArrowSprite, (sfVector2f) { 32.f, 32.f });
-    sfSprite_setOrigin(menu->rightArrowSprite, (sfVector2f) { 32.f, 32.f });
+    cell->sprite = sfSprite_create();
+    if (!cell->sprite) {
+        free(cell);
+        return NULL;
+    }
+    GetRequiredSpriteForCell(cell, grid);
+    sfSprite_setPosition(cell->sprite, (sfVector2f) { (float)cellCoord.x* size, (float)cellCoord.y* size });
+    float scale = (float)CELL_SIZE / 8.f;
+    sfSprite_setScale(cell->sprite, (sfVector2f) { scale, scale });
 
-    sfSprite_setPosition(menu->leftArrowSprite, (sfVector2f) { WINDOW_WIDTH / 4, WINDOW_HEIGHT / 2 });
-    sfSprite_setPosition(menu->rightArrowSprite, (sfVector2f) { WINDOW_WIDTH - (WINDOW_WIDTH / 4), WINDOW_HEIGHT / 2 });
+    return cell;
+}
 
-    menu->currentMapText = NULL;
-    menu->modeIconSprite = NULL;
-    menu->modeText = NULL;
-    menu->TextureIconSprite = NULL;
-    menu->TextureSelect = NULL;
+void DestroyCell(Cell* cell) {
+    if (cell) {
+        if (cell->sprite) {
+            sfSprite_destroy(cell->sprite);
+        }
+        free(cell);
+    }
+}
 
-    return menu;
+void DrawCell(sfRenderWindow* window, Cell* cell) {
+    if (window && cell && cell->sprite) {
+        sfRenderWindow_drawSprite(window, cell->sprite, NULL);
+    }
 }

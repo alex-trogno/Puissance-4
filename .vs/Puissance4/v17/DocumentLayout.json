@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\Cours\\Puissance-4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\GAme.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:GAme.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Basic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Basic.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Grid.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Players.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -23,23 +35,11 @@
       "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Grid.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\Game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:Game.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\GAme.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:GAme.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\COURS\\PUISSANCE-4\\CSFML\\INCLUDE\\SFML\\GRAPHICS\\RENDERWINDOW.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\CSFML\\INCLUDE\\SFML\\GRAPHICS\\RENDERWINDOW.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:CSFML\\INCLUDE\\SFML\\GRAPHICS\\RENDERWINDOW.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\COURS\\PUISSANCE-4\\CSFML\\INCLUDE\\SFML\\GRAPHICS\\COLOR.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|D:\\Cours\\Puissance-4\\CSFML\\INCLUDE\\SFML\\GRAPHICS\\COLOR.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{89237CF7-2B71-4A04-8DA9-D41631EFE426}|Puissance4.vcxproj|solutionrelative:CSFML\\INCLUDE\\SFML\\GRAPHICS\\COLOR.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -50,11 +50,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Players.c",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Players.c",
               "RelativeDocumentMoniker": "Players.c",
@@ -67,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Players.h",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Players.h",
               "RelativeDocumentMoniker": "Players.h",
@@ -80,20 +80,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Grid.h",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Grid.h",
               "RelativeDocumentMoniker": "Grid.h",
               "ToolTip": "D:\\Cours\\Puissance-4\\Grid.h",
               "RelativeToolTip": "Grid.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-16T18:56:07.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Grid.c",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Grid.c",
               "RelativeDocumentMoniker": "Grid.c",
@@ -101,31 +101,30 @@
               "RelativeToolTip": "Grid.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-03-16T18:56:00.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T18:56:00.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Game.h",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Game.h",
               "RelativeDocumentMoniker": "Game.h",
               "ToolTip": "D:\\Cours\\Puissance-4\\Game.h",
               "RelativeToolTip": "Game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-16T18:32:36.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Game.c",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Game.c",
               "RelativeDocumentMoniker": "Game.c",
               "ToolTip": "D:\\Cours\\Puissance-4\\Game.c",
               "RelativeToolTip": "Game.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC8AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-16T18:32:04.254Z",
               "EditorCaption": ""
@@ -140,18 +139,17 @@
               "RelativeToolTip": "CSFML\\include\\SFML\\Graphics\\RenderWindow.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-16T17:55:00.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T17:55:00.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Basic.h",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Basic.h",
               "RelativeDocumentMoniker": "Basic.h",
               "ToolTip": "D:\\Cours\\Puissance-4\\Basic.h",
               "RelativeToolTip": "Basic.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-03-16T17:48:46.834Z",
               "EditorCaption": ""
@@ -166,18 +164,17 @@
               "RelativeToolTip": "CSFML\\include\\SFML\\Graphics\\Color.h",
               "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-03-16T17:35:35.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-16T17:35:35.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Main.c",
               "DocumentMoniker": "D:\\Cours\\Puissance-4\\Main.c",
               "RelativeDocumentMoniker": "Main.c",
               "ToolTip": "D:\\Cours\\Puissance-4\\Main.c",
               "RelativeToolTip": "Main.c",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-03-16T17:28:59.439Z",
               "EditorCaption": ""

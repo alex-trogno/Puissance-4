@@ -1,4 +1,3 @@
 ﻿  Game.c
-  Main.c
-  Generating Code...
+D:\Cours\Puissance-4\Game.c(18,5): warning C4047: 'return': 'Game *' differs in levels of indirection from 'int'
   Puissance4.vcxproj -> D:\Cours\Puissance-4\x64\Debug\Puissance4.exe
