@@ -24,6 +24,12 @@
     <ClCompile Include="Players.c">
       <Filter>Sources Files</Filter>
     </ClCompile>
+    <ClCompile Include="Menu.c">
+      <Filter>Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.c">
+      <Filter>Sources Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Basic.h">
@@ -36,6 +42,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Players.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

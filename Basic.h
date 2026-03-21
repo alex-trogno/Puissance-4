@@ -19,6 +19,8 @@
 #define WINDOW_HEIGHT (GRID_ROWS * CELL_SIZE + OFFSET_TOP + OFFSET_BOTTOM)
 #define GRAPHIC_OFFSET 20
 
+#define TOKEN_FALL_SPEED 800.f
+
 enum ExitCode {
     FAILURE = -1,
     SUCCESS = 0,
@@ -31,6 +33,7 @@ enum ExitCode {
 enum Scene {
     SCENE_MENU,
     SCENE_GAME,
+    SCENE_END,
 };
 
 enum CellType {
@@ -39,29 +42,21 @@ enum CellType {
     PLAYER2,
 };
 
-enum Direction
-{
-    NONE = 0,
-    EAST = 1,
-    WEST = 2,
-    EAST_WEST = 3,
-    NORTH = 10,
-    NORTH_EAST = 11,
-    NORTH_WEST = 12,
-    NORTH_EAST_WEST = 13,
-    SOUTH = 20,
-    SOUTH_EAST = 21,
-    SOUTH_WEST = 22,
-    SOUTH_EAST_WEST = 23,
-    NORTH_SOUTH = 30,
-    NORTH_SOUTH_EAST = 31,
-    NORTH_SOUTH_WEST = 32,
-    ALL = 33,
-};
-
 typedef struct Cell
 {
     sfVector2i    coord;
     enum CellType type;
     sfSprite* sprite;
 } Cell;
+
+typedef struct FallingToken
+{
+    sfSprite* sprite;
+    float         currentY;
+    float         targetY;
+    int           active;
+    void* pendingCell;
+    int           pendingType;
+    int           pendingRow;
+    int           pendingCol;
+} FallingToken;
