@@ -131,14 +131,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.c" />
-    <ClCompile Include="map.c" />
-    <ClCompile Include="MapSelectionMenu.c" />
+    <ClCompile Include="Game.c" />
+    <ClCompile Include="Grid.c" />
+    <ClCompile Include="Main.c" />
+    <ClCompile Include="Menu.c" />
+    <ClCompile Include="Players.c" />
+    <ClCompile Include="Renderer.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="basics.h" />
-    <ClInclude Include="map.h" />
-    <ClInclude Include="MapSelectionMenu.h" />
+    <ClInclude Include="Basic.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Players.h" />
+    <ClInclude Include="Renderer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -7,17 +7,48 @@
     <Filter Include="Sources Files">
       <UniqueIdentifier>{771e3fc8-c1ea-4c2f-b545-8d682ec44748}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Ressource files">
+      <UniqueIdentifier>{8a1a01e5-3fc5-490e-b615-5cb1be63d8b9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="Main.c">
       <Filter>Sources Files</Filter>
     </ClCompile>
-    <ClCompile Include="map.c" />
-    <ClCompile Include="MapSelectionMenu.c" />
+    <ClCompile Include="Game.c">
+      <Filter>Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.c">
+      <Filter>Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Players.c">
+      <Filter>Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.c">
+      <Filter>Sources Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.c">
+      <Filter>Sources Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="map.h" />
-    <ClInclude Include="basics.h" />
-    <ClInclude Include="MapSelectionMenu.h" />
+    <ClInclude Include="Basic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Players.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

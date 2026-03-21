@@ -1,2 +1,8 @@
-﻿  LINK : C:\Users\ptihu\Desktop\projet g tech\Puissance-4\x64\Debug\Puissance4.exe introuvable ou non généré par la dernière édition de liens incrémentielle ; édition de liens complète en cours
-  Puissance4.vcxproj -> C:\Users\ptihu\Desktop\projet g tech\Puissance-4\x64\Debug\Puissance4.exe
+﻿  Game.c
+D:\Cours\Puissance-4\Game.c(296,16): warning C4033: 'HandleClickGame' must return a value
+  Grid.c
+  Main.c
+  Renderer.c
+  Generating Code...
+D:\Cours\Puissance-4\Game.c(344,1): warning C4715: 'HandleClickGame': not all control paths return a value
+  Puissance4.vcxproj -> D:\Cours\Puissance-4\x64\Debug\Puissance4.exe

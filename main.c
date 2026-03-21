@@ -1,78 +1,93 @@
 #include <SFML/Audio.h>
 #include <SFML/Graphics.h>
-#include "basics.h"
-#include "map.h"
-#include "MapSelectionMenu.h"
+#include <time.h>
+
+#include "Basic.h"
+#include "Game.h"
+#include "Menu.h"
 
 int main(void)
 {
-    sfVideoMode mode = { 500, 500, 32 };
+    sfVideoMode mode = { WINDOW_WIDTH, WINDOW_HEIGHT, 32 };
     sfRenderWindow* window;
     sfEvent event;
+    sfClock* clock;
 
-    /* Create the main window */
     window = sfRenderWindow_create(mode, "Puissance 4", sfClose, NULL);
-    if (!window)
-    {
-        return -1;
-    }
+    if (!window) return FAILURE;
 
     srand((unsigned int)time(NULL));
-   
+    clock = sfClock_create();
 
-    /* Start the game loop */
+    enum Scene currentScene = SCENE_MENU;
+    Menu* menu = CreateMenu();
+    Game* game = NULL;
+
     while (sfRenderWindow_isOpen(window))
     {
-        /* Process events */
+        float deltaTime = sfTime_asSeconds(sfClock_restart(clock));
+
         while (sfRenderWindow_pollEvent(window, &event))
         {
-            int p1 = 1;
-            
-            /* Close window : exit */
             if (event.type == sfEvtClosed)
-            {
                 sfRenderWindow_close(window);
-            }
-            
-            if (event.mouseButton.button == sfMouseLeft && p1 == 1)
+
+            if (currentScene == SCENE_MENU)
             {
-                    p1 = p1 + 1;
-                    sfSleep(sfMilliseconds(300));
-                    printf("p1 vient de jouer");
-                    
-                    
-
+                if (event.type == sfEvtMouseButtonPressed && event.mouseButton.button == sfMouseLeft)
+                    HandleClickMenu(menu, event.mouseButton.x, event.mouseButton.y);
+                if (event.type == sfEvtTextEntered)
+                    HandleTextMenu(menu, event.text.unicode);
             }
-            if (event.mouseButton.button == sfMouseLeft && p1 == 2)
+            else if (currentScene == SCENE_GAME)
             {
-
-                sfSleep(sfMilliseconds(300));
-                printf("p2 vient de jouer");
-                p1 = p1 - 1;
-                
-
+                if (event.type == sfEvtMouseButtonPressed && event.mouseButton.button == sfMouseLeft)
+                {
+                    int result = HandleClickGame(game, event.mouseButton.x, event.mouseButton.y);
+                    if (result == SCENE_MENU)
+                    {
+                        DestroyGame(game);
+                        game = NULL;
+                        menu = CreateMenu();
+                        currentScene = SCENE_MENU;
+                    }
+                }
             }
-
-
-            
-
-
-
-            
         }
-        //
 
-        /* Clear the screen */
-        sfRenderWindow_clear(window, sfBlack);
+        if (currentScene == SCENE_MENU)
+        {
+            if (MenuReadyToQuit(menu))
+                sfRenderWindow_close(window);
 
-        //
+            if (MenuReadyToPlay(menu))
+            {
+                char n1[32], n2[32];
+                MenuGetNames(menu, n1, n2);
+                DestroyMenu(menu);
+                menu = NULL;
+                game = CreateGame(n1, n2);
+                currentScene = SCENE_GAME;
+            }
+        }
 
-        /* Update the window */
+        if (currentScene == SCENE_GAME)
+            UpdateGame(game, deltaTime);
+
+        sfRenderWindow_clear(window, sfColor_fromRGB(0, 174, 192));
+
+        if (currentScene == SCENE_MENU)
+            DrawMenu(window, menu);
+        else if (currentScene == SCENE_GAME)
+            DrawGame(window, game);
+
         sfRenderWindow_display(window);
     }
 
-    /* Cleanup resources */
+    if (menu) DestroyMenu(menu);
+    if (game) DestroyGame(game);
+    sfClock_destroy(clock);
     sfRenderWindow_destroy(window);
 
-    return 1;
+    return SUCCESS;
 }
